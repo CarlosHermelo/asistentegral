@@ -1,7 +1,14 @@
-__pycache__
-venv
+# Ignorar archivos y carpetas de Python
+__pycache__/
 *.pyc
 *.pyo
 *.pyd
-.DS_Store
+venv/
 .env
+
+# Ignorar archivos de Docker
+.dockerignore
+
+# Ignorar archivos de configuración del sistema
+.DS_Store
+Thumbs.db
